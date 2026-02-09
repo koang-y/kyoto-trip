@@ -4,130 +4,230 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>일본 여행 먹킷리스트</title>
+
 <style>
-body{margin:0;background:#f5f5f5;font-family:-apple-system,BlinkMacSystemFont,"Noto Sans KR",sans-serif}
-.day{margin:22px 14px 10px;font-size:20px;font-weight:800}
-.section{margin:14px;font-size:16px;font-weight:700}
-.card{background:#fff;margin:10px 14px;border-radius:16px;overflow:hidden;
-box-shadow:0 4px 12px rgba(0,0,0,.08)}
+body{
+  margin:0;
+  background:#f5f5f5;
+  font-family:-apple-system,BlinkMacSystemFont,"Noto Sans KR",sans-serif
+}
+.day{
+  margin:22px 14px 10px;
+  font-size:20px;
+  font-weight:800
+}
+.section{
+  margin:14px;
+  font-size:16px;
+  font-weight:800
+}
+.section.meal{color:#444}      /* 식사 */
+.section.cafe{color:#2f7d4f}   /* 카페 */
+
+.card{
+  background:#fff;
+  margin:12px 14px;
+  border-radius:18px;
+  overflow:hidden;
+  box-shadow:0 4px 12px rgba(0,0,0,.08)
+}
+.card img{
+  width:100%;
+  height:auto;
+  display:block
+}
 .c{padding:14px}
 .name{font-size:16px;font-weight:700}
 .meta{font-size:13px;color:#666;margin:4px 0}
-.btn{display:block;margin-top:8px;padding:12px;text-align:center;
-border-radius:12px;text-decoration:none;font-weight:600;background:#4285F4;color:#fff}
+.btn{
+  display:block;
+  margin-top:10px;
+  padding:12px;
+  text-align:center;
+  border-radius:12px;
+  text-decoration:none;
+  font-weight:700;
+  background:#4285F4;
+  color:#fff
+}
 </style>
 </head>
+
 <body>
 
 <!-- 3/1 -->
 <div class="day">📅 3/1 (일)</div>
 
-<div class="section">🍜 점심 (교토역)</div>
-<div class="card"><div class="c">
+<div class="section meal">🍜 점심 (교토역)</div>
+
+<div class="card"><img src="images/kaidashimen-kitada.jpg"><div class="c">
 <div class="name">카이다시멘 키타다</div>
 <a class="btn" href="https://maps.app.goo.gl/rYpAp1oxyDScN83A7">구글맵 열기</a>
 </div></div>
 
-<div class="card"><div class="c">
+<div class="card"><img src="images/honke-daiichi-asahi.jpg"><div class="c">
 <div class="name">혼케 다이이치 아사히</div>
 <a class="btn" href="https://maps.app.goo.gl/fU728yUwszGGMmSd7">구글맵 열기</a>
 </div></div>
 
-<div class="section">☕ 카페 (후시미 이나리)</div>
-<div class="card"><div class="c"><div class="name">이나리 사료</div>
-<a class="btn" href="https://maps.app.goo.gl/LA1NGUNZjzYw7trP6">구글맵 열기</a></div></div>
+<div class="section cafe">☕ 카페 (후시미 이나리)</div>
 
-<div class="card"><div class="c"><div class="name">버밀리언 카페</div>
-<a class="btn" href="https://maps.app.goo.gl/2Vi5DtSEwmz6yEPP9">구글맵 열기</a></div></div>
+<div class="card"><img src="images/inari-saryo.jpg"><div class="c">
+<div class="name">이나리 사료</div>
+<a class="btn" href="https://maps.app.goo.gl/LA1NGUNZjzYw7trP6">구글맵 열기</a>
+</div></div>
 
-<div class="card"><div class="c"><div class="name">이츠키차야 브런치카페</div>
-<a class="btn" href="https://maps.app.goo.gl/LpsjcBNa6Yqsd1AY6">구글맵 열기</a></div></div>
+<div class="card"><img src="images/vermillion-cafe.jpg"><div class="c">
+<div class="name">버밀리언 카페</div>
+<a class="btn" href="https://maps.app.goo.gl/2Vi5DtSEwmz6yEPP9">구글맵 열기</a>
+</div></div>
 
-<div class="card"><div class="c"><div class="name">카노코 카페</div>
-<a class="btn" href="https://maps.app.goo.gl/vEfdC37Z4FHA479g7">구글맵 열기</a></div></div>
+<div class="card"><img src="images/itsukichaya.jpg"><div class="c">
+<div class="name">이츠키차야 브런치카페</div>
+<a class="btn" href="https://maps.app.goo.gl/LpsjcBNa6Yqsd1AY6">구글맵 열기</a>
+</div></div>
 
-<div class="section">🍛 저녁 (가와라마치 / 기온)</div>
-<div class="card"><div class="c"><div class="name">수프카레 오미야</div>
-<a class="btn" href="https://maps.app.goo.gl/haYsHT9p69aTymJL7">구글맵 열기</a></div></div>
+<div class="card"><img src="images/kanoko-cafe.jpg"><div class="c">
+<div class="name">카노코 카페</div>
+<a class="btn" href="https://maps.app.goo.gl/vEfdC37Z4FHA479g7">구글맵 열기</a>
+</div></div>
 
-<div class="card"><div class="c"><div class="name">수프카레 킹</div>
-<a class="btn" href="https://maps.app.goo.gl/xj1HnDz9LzUTAZTB8">구글맵 열기</a></div></div>
+<div class="section meal">🍛 저녁 (가와라마치 / 기온)</div>
 
-<div class="section">☕ 카페 (가와라마치 / 기온)</div>
-<div class="card"><div class="c"><div class="name">블루 파 트리 카페</div>
-<a class="btn" href="https://maps.app.goo.gl/RhoFt5q9BaBkPoHK9">구글맵 열기</a></div></div>
+<div class="card"><img src="images/soupcurry-omiya.jpg"><div class="c">
+<div class="name">수프카레 오미야</div>
+<a class="btn" href="https://maps.app.goo.gl/haYsHT9p69aTymJL7">구글맵 열기</a>
+</div></div>
 
-<div class="card"><div class="c"><div class="name">파넬 카페</div>
-<a class="btn" href="https://maps.app.goo.gl/fmmEHVGxj4wRyZAs6">구글맵 열기</a></div></div>
+<div class="card"><img src="images/soupcurry-king.jpg"><div class="c">
+<div class="name">수프카레 킹</div>
+<a class="btn" href="https://maps.app.goo.gl/xj1HnDz9LzUTAZTB8">구글맵 열기</a>
+</div></div>
+
+<div class="section cafe">☕ 카페 (가와라마치 / 기온)</div>
+
+<div class="card"><img src="images/blue-fir-tree.jpg"><div class="c">
+<div class="name">블루 파 트리 카페</div>
+<a class="btn" href="https://maps.app.goo.gl/RhoFt5q9BaBkPoHK9">구글맵 열기</a>
+</div></div>
+
+<div class="card"><img src="images/panel-cafe.jpg"><div class="c">
+<div class="name">파넬 카페</div>
+<a class="btn" href="https://maps.app.goo.gl/fmmEHVGxj4wRyZAs6">구글맵 열기</a>
+</div></div>
 
 <!-- 3/2 -->
 <div class="day">📅 3/2 (월)</div>
 
-<div class="section">☀ 아침 (교토역)</div>
-<div class="card"><div class="c"><div class="name">츠쿠모 우동</div>
-<a class="btn" href="https://maps.app.goo.gl/xyWnYpAMVb2KdWmi6">구글맵 열기</a></div></div>
+<div class="section meal">☀ 아침 (교토역)</div>
 
-<div class="card"><div class="c"><div class="name">에키벤</div>
-<div class="meta">교토역 내 구매</div></div></div>
+<div class="card"><img src="images/tsukumo-udon.jpg"><div class="c">
+<div class="name">츠쿠모 우동</div>
+<a class="btn" href="https://maps.app.goo.gl/xyWnYpAMVb2KdWmi6">구글맵 열기</a>
+</div></div>
 
-<div class="section">☀ 아침 / ☕ (시라히게 신사)</div>
-<div class="card"><div class="c"><div class="name">시라히게레스토랑</div>
-<a class="btn" href="https://maps.app.goo.gl/92pJHfY2WgWGQbKH7">구글맵 열기</a></div></div>
+<div class="card"><img src="images/ekiben.jpg"><div class="c">
+<div class="name">에키벤</div>
+<div class="meta">교토역 내 구매</div>
+</div></div>
 
-<div class="card"><div class="c"><div class="name">시라히게킷사</div>
-<a class="btn" href="https://maps.app.goo.gl/UvVUgdeNpXFMnXJN6">구글맵 열기</a></div></div>
+<div class="section cafe">☕ 시라히게 신사</div>
 
-<div class="section">🍽 점심 (비와코 테라스)</div>
-<div class="card"><div class="c"><div class="name">하루카</div>
-<a class="btn" href="https://maps.app.goo.gl/iGy5ZvLNE3BKaqvM6">구글맵 열기</a></div></div>
+<div class="card"><img src="images/shirahige-restaurant.jpg"><div class="c">
+<div class="name">시라히게레스토랑</div>
+<a class="btn" href="https://maps.app.goo.gl/92pJHfY2WgWGQbKH7">구글맵 열기</a>
+</div></div>
 
-<div class="card"><div class="c"><div class="name">비와코 테라스</div>
-<a class="btn" href="https://maps.app.goo.gl/Eah4YRauNU32MsC8A">구글맵 열기</a></div></div>
+<div class="card"><img src="images/shirahige-kissa.jpg"><div class="c">
+<div class="name">시라히게킷사</div>
+<a class="btn" href="https://maps.app.goo.gl/UvVUgdeNpXFMnXJN6">구글맵 열기</a>
+</div></div>
 
-<div class="section">🍱 저녁 (아가랸세 온천)</div>
-<div class="card"><div class="c"><div class="name">쇼쿠도 앤 테이쇼쿠</div>
-<a class="btn" href="https://maps.app.goo.gl/M61iMYTFZg3bQB617">구글맵 열기</a></div></div>
+<div class="section meal">🍽 점심 (비와코 테라스)</div>
 
-<div class="card"><div class="c"><div class="name">보자르</div>
-<a class="btn" href="https://maps.app.goo.gl/eQG43DHNN4vVM5DW7">구글맵 열기</a></div></div>
+<div class="card"><img src="images/haruka.jpg"><div class="c">
+<div class="name">하루카</div>
+<a class="btn" href="https://maps.app.goo.gl/iGy5ZvLNE3BKaqvM6">구글맵 열기</a>
+</div></div>
+
+<div class="card"><img src="images/biwako-terrace.jpg"><div class="c">
+<div class="name">비와코 테라스</div>
+<a class="btn" href="https://maps.app.goo.gl/Eah4YRauNU32MsC8A">구글맵 열기</a>
+</div></div>
+
+<div class="section meal">🍱 저녁 (아가랸세 온천)</div>
+
+<div class="card"><img src="images/shokudo-teishoku.jpg"><div class="c">
+<div class="name">쇼쿠도 앤 테이쇼쿠</div>
+<a class="btn" href="https://maps.app.goo.gl/M61iMYTFZg3bQB617">구글맵 열기</a>
+</div></div>
+
+<div class="card"><img src="images/beaux-arts.jpg"><div class="c">
+<div class="name">보자르</div>
+<a class="btn" href="https://maps.app.goo.gl/eQG43DHNN4vVM5DW7">구글맵 열기</a>
+</div></div>
 
 <!-- 3/3 -->
 <div class="day">📅 3/3 (화)</div>
 
-<div class="section">☀ 아침</div>
-<div class="card"><div class="c"><div class="name">이노다 커피</div>
-<div class="meta">대표: 나폴리탄</div>
-<a class="btn" href="https://maps.app.goo.gl/AHeic61hWMfG8hFa9">구글맵 열기</a></div></div>
+<div class="section cafe">☀ 아침</div>
 
-<div class="section">🍽 점심 (아라시야마)</div>
-<div class="card"><div class="c"><div class="name">마츠가에</div>
-<a class="btn" href="https://maps.app.goo.gl/AqMAuuwtBbxGJqmT9">구글맵 열기</a></div></div>
+<div class="card"><img src="images/inoda-coffee.jpg"><div class="c">
+<div class="name">이노다 커피</div>
+<div class="meta">대표 메뉴: 나폴리탄</div>
+<a class="btn" href="https://maps.app.goo.gl/AHeic61hWMfG8hFa9">구글맵 열기</a>
+</div></div>
 
-<div class="card"><div class="c"><div class="name">쇼라이안</div>
-<a class="btn" href="https://maps.app.goo.gl/iKkuZmsXtKg8xuGo8">구글맵 열기</a></div></div>
+<div class="section meal">🍽 점심 (아라시야마)</div>
 
-<div class="section">☕ 카페 (아라시야마)</div>
-<div class="card"><div class="c"><div class="name">빵과 에스프레소와 아라시야마 정원</div>
-<a class="btn" href="https://maps.app.goo.gl/3ZKFM8Td2yrgy9Zq7">구글맵 열기</a></div></div>
+<div class="card"><img src="images/matsugae.jpg"><div class="c">
+<div class="name">마츠가에</div>
+<a class="btn" href="https://maps.app.goo.gl/AqMAuuwtBbxGJqmT9">구글맵 열기</a>
+</div></div>
 
-<div class="card"><div class="c"><div class="name">아라비카 교토</div>
-<a class="btn" href="https://maps.app.goo.gl/jg5iyEp784mT5qnA6">구글맵 열기</a></div></div>
+<div class="card"><img src="images/shoraian.jpg"><div class="c">
+<div class="name">쇼라이안</div>
+<a class="btn" href="https://maps.app.goo.gl/iKkuZmsXtKg8xuGo8">구글맵 열기</a>
+</div></div>
 
-<div class="section">☕ 카페 (니시키시장)</div>
-<div class="card"><div class="c"><div class="name">신신도</div>
-<a class="btn" href="https://maps.app.goo.gl/CR81ZD4W33j8jYBh9">구글맵 열기</a></div></div>
+<div class="section cafe">☕ 카페 (아라시야마)</div>
 
-<div class="card"><div class="c"><div class="name">굿맨 로스터 교토</div>
-<a class="btn" href="https://maps.app.goo.gl/zdS8S4bmbEc91z7R8">구글맵 열기</a></div></div>
+<div class="card"><img src="images/bread-espresso-arashiyama.jpg"><div class="c">
+<div class="name">빵과 에스프레소와 아라시야마 정원</div>
+<a class="btn" href="https://maps.app.goo.gl/3ZKFM8Td2yrgy9Zq7">구글맵 열기</a>
+</div></div>
 
-<div class="card"><div class="c"><div class="name">아이오라이트 커피</div>
-<a class="btn" href="https://maps.app.goo.gl/faVXCjYKagWJT6jd8">구글맵 열기</a></div></div>
+<div class="card"><img src="images/arabica-kyoto.jpg"><div class="c">
+<div class="name">아라비카 교토</div>
+<a class="btn" href="https://maps.app.goo.gl/jg5iyEp784mT5qnA6">구글맵 열기</a>
+</div></div>
 
-<div class="card"><div class="c"><div class="name">사료 스이센</div>
-<a class="btn" href="https://maps.app.goo.gl/Aj46iUkm1E2psfNM9">구글맵 열기</a></div></div>
+<div class="section cafe">☕ 카페 (니시키시장)</div>
 
-<div class="card"><div class="c"><div class="name">사오리</div>
-<a class="btn" href="https://maps.app.goo.gl/V9jfhhYFQ8QGXmti6">구글맵 열기</a></div></div>
+<div class="card"><img src="images/shinshindo.jpg"><div class="c">
+<div class="name">신신도</div>
+<a class="btn" href="https://maps.app.goo.gl/CR81ZD4W33j8jYBh9">구글맵 열기</a>
+</div></div>
+
+<div class="card"><img src="images/goodman-roaster.jpg"><div class="c">
+<div class="name">굿맨 로스터 교토</div>
+<a class="btn" href="https://maps.app.goo.gl/zdS8S4bmbEc91z7R8">구글맵 열기</a>
+</div></div>
+
+<div class="card"><img src="images/iolite-coffee.jpg"><div class="c">
+<div class="name">아이오라이트 커피</div>
+<a class="btn" href="https://maps.app.goo.gl/faVXCjYKagWJT6jd8">구글맵 열기</a>
+</div></div>
+
+<div class="card"><img src="images/saryo-suisen.jpg"><div class="c">
+<div class="name">사료 스이센</div>
+<a class="btn" href="https://maps.app.goo.gl/Aj46iUkm1E2psfNM9">구글맵 열기</a>
+</div></div>
+
+<div class="card"><img src="images/saori.jpg"><div class="c">
+<div class="name">사오리</div>
+<a class="btn" href="https://maps.app.goo.gl/V9jfhhYFQ8QGXmti6">구글맵 열기</a>
+</div></div>
 
 </body>
 </html>
